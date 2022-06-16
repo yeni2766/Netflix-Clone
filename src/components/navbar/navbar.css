@@ -1,0 +1,78 @@
+.navbar{
+    color:black;
+    height:70px;
+    position: fixed;
+    font-size: 14px;
+    top:0;
+    width: 100%;
+    background-color: #141414;
+    z-index: 999;
+   
+}
+
+ul li{
+font-family: 'Roboto', sans-serif;
+color:white;
+display:inline-block;
+margin-right: 25px;
+cursor: pointer;
+
+align-items: center;
+}
+.container{
+   position: relative;
+   top:20px;
+}
+
+
+
+.container img{
+  
+        height:30px;
+        cursor:pointer;
+        margin-right: 40px;
+        
+    
+}
+.right{
+    color:white;
+}
+.container .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container .right{
+    display: flex;
+
+    align-items: center;
+
+}
+.container {
+    display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.container .right img{
+    width:30px;
+    height:30px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.container .left .Netflix{
+    padding:20px;
+}
+
+.container .right{
+ margin-left: 20px;
+    cursor: pointer;
+}
+.options{
+    display: none;
+}
+
+a:hover + options{
+    display: block;
+}

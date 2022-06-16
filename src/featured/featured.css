@@ -1,0 +1,100 @@
+
+.featured{
+    display:flex;
+    flex-direction: column;
+    height:90vh;
+    background-image: url('https://media.pitchfork.com/photos/5e31b3b848853d00097af4f8/2:1/w_2560%2Cc_limit/TaylorSwiftMissAmericana.jpg');
+    background-size: cover;
+    position: relative;
+}
+.featured img{
+    height:100%;
+    width:100%;
+    background-size: cover;
+}
+
+.info{
+    width:35%;
+    position: absolute;
+    left:50px;
+    bottom:100px;
+    color:black;
+}
+
+.info .desc{
+    color:black;
+}
+button{
+
+    margin-right: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    border:0.3px solid grey;
+    align-items: center;
+    justify-content: center;
+    padding:8px 20px;
+    display: flex;
+
+    font-size: 18px;
+    cursor: pointer;
+
+    position: relative;
+    top:30px;
+font-weight: bold;
+}
+.button{
+    display:flex;
+    flex-direction: row;
+}
+button:hover{
+    background-color: grey;
+}
+.featured .info .desc{
+    color:white;
+}
+.featured .category{
+position: absolute;
+top:120px;
+left:55px;
+font-size: 30px;
+font-weight: 500;
+color:white;
+display:flex;
+flex-direction: row;
+z-index: 1;
+align-items: center;
+}
+
+select{
+    cursor:pointer;
+    background-color: black;
+    border: 1px solid white;
+    color:white;
+    padding:5px;
+    height:20%;
+
+}
+.featured .category span {
+ position: relative;
+ right:10px;
+    
+    }
+    
+.featured .info .title{
+    color:white;
+    position: relative;
+    bottom:70px;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+
+.featured .info .title1{
+    color:white;
+    position: relative;
+    bottom:70px;
+    left:60px;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
